@@ -1,0 +1,57 @@
+img{
+    height: 250px;
+
+}
+body{
+    margin: 0;
+}
+
+header{
+    background-color:#4CAF50;
+   height: 50px;
+   display: flex;
+}
+
+header span{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.every-product{
+    display:flexbox;
+    border: 2px solid black;
+
+
+}
+.model-info{
+    display: none;
+}
+.model-infoDisplay{
+    display: initial;
+} 
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    
+}
+#bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+
+}
